@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tastily Divine • Food Truck Menu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link href="styless.css" rel="stylesheet" type="text/css">
+  <style>
+    :root{
+      --bg:#fffdf8;
+      --card:#ffffff;
+      --ink:#2b2b2b;
+      --muted:#6f6f6f;
+      --brand-dark:#0077b6;
+              /* warm accent */
+      --shadow:0 10px 30px rgba(0,0,0,.06);
+      --radius:18px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true"></div>
+        <strong><a href="index.html">Tastily Divine</a></strong>
+      </div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+      </div>
+    </nav>
+  </header>
+
+<div class="hero">
+  <section class="card">
+      <h1>Heavenly Flavor, Served Fresh</h1>
+      <p>Food made with faith, flavor, and fellowship. Order at the window or contact us to cater your next gathering.</p>
+      <div class="badges">
+        <span class="badge">VG = Vegetarian</span>
+        <span class="badge">V = Vegan</span>
+      </div>
+  </section>
+  <aside class="card hours">
+    <h3>Hours</h3>
+	<p>Monday - Thursday</p>
+	<p>12:00 PM – 6:00 PM or Sold out</p>
+	<p>Friday 12:00 PM - 4:00 PM</p> 
+	<p>Sunday 12:00 PM – 6:00 PM or Sold out</p>
+    <h3 style="margin-top:14px">Location</h3>
+    <p>4901 Edgewater Dr Orlando, FL 32810</p>
+  </aside>
+  </div>
+
+  <div class="filters" aria-label="Quick categories">
+    <span class="chip is-active">All</span>
+    <a class="chip" href="protein">Proteins</a>
+    <a class="chip" href="#sides">Sides</a>
+    <a class="chip" href="#drinks">Drinks</a>
+    <a class="chip" href="#desserts">Desserts</a>
+  </div>
+
+  <main class="menu">
+    <!-- TACOS -->
+    <div class="section" id="proteins">
+      <h2>Proteins</h2>
+    </div>
+
+    <article class="item">
+      <div class="meta">
+        <div class="top">
+          <div class="title">Oxtails</div>
+          <div class="price">$30</div>
+        </div>
+        <p class="desc">Slow-braised beef, consommé dip, onion, cilantro, lime.</p>
+      </div>
+    </article>
+
+    <article class="item">
+      <div class="meta">
+        <div class="top">
+          <div class="title">Oxtail Bowl</div>
+          <div class="price">$20</div>
+        </div>
+        <p class="desc">Roasted squash, corn, avocado crema, pico de gallo.</p>
+      </div>
+    </article>
+
+    <article class="item">
+      <div class="meta">
+        <div class="top">
+          <div class="title">Curry Goat<span class="tag">🌶</span></div>
+          <div class="price">$22</div>
+        </div>
+        <p class="desc">Grilled citrus fish, cabbage, chipotle tartar, cilantro.</p>
+		</div>
+    </article>
+
+	<article class="item">
+      <div class="meta">
+        <div class="top">
+          <div class="title">Jerk Chicken<span class="tag">🌶</span></div>
+          <div class="price">$18</div>
+        </div>
+        <p class="desc">Grilled citrus fish, cabbage, chipotle tartar, cilantro.</p>
+      </div>
+    </article>
+	
+	<article class="item">
+      <div class="meta">
+        <div class="top">
+          <div class="title">Curry Chicken<span class="tag">GF</span> <span class="tag">🌶</span></div>
+          <div class="price">$18</div>
+        </div>
+        <p class="desc">Slow-braised beef, consommé dip, onion, cilantro, lime.</p>
+      </div>
+    </article>
+
+    <article class="item">
+      <div class="meta">
+        <div class="top">
+          <div class="title">Stew Chicken</div>
+          <div class="price">$18</div>
+        </div>
+        <p class="desc">Roasted squash, corn, avocado crema, pico de gallo.</p>
+      </div>
+    </article>
+
+    <article class="item">
+      <div class="meta">
+        <div class="top">
+          <div class="title">Vegan Curry Goat<span class="tag">V</span></div>
+          <div class="price">$20</div>
+        </div>
+        <p class="desc">Grilled citrus fish, cabbage, chipotle tartar, cilantro.</p>
+      </div>
+    </article>
+
+	<article class="item">
+      <div class="meta">
+        <div class="top">
+          <div class="title">Vegan Spicy Sausage<span class="tag">V</span></div>
+          <div class="price">$20</div>
+        </div>
+        <p class="desc">Grilled citrus fish, cabbage, chipotle tartar, cilantro.</p>
+      </div>
+    </article>
+	
+    <!-- Sides -->
+    <div class="section" id="sides">
+      <h2>Sides</h2>
+    </div>
+
+    <article class="item">
+      <div class="meta">
+        <div class="top">
+          <div class="title">Yellow Rice</div>
+          <div class="price">$8</div>
+        </div>
+        <p class="desc">Smoky pulled pork, tangy slaw, brioche bun.</p>
+      </div>
+    </article>
+
+    <article class="item">
+      <div class="meta">
+        <div class="top"><div class="title">Rice and Beans</div><div class="price">$8</div></div>
+        <p class="desc">Crispy chicken, hot honey, pickle chips.</p>
+      </div>
+    </article>
+	
+	<article class="item">
+      <div class="meta">
+        <div class="top"><div class="title">Mac and Cheese</div><div class="price">$8.50</div></div>
+        <p class="desc">Crispy chicken, hot honey, pickle chips.</p>
+      </div>
+    </article>
+	
+	<article class="item">
+      <div class="meta">
+        <div class="top"><div class="title">Mac-No-Cheese</div><div class="price">$10</div></div>
+        <p class="desc">Crispy chicken, hot honey, pickle chips.</p>
+      </div>
+    </article>
+	
+    <!-- DRINKS -->
+    <div class="section" id="drinks">
+      <h2>Drinks</h2>
+    </div>
+
+    <article class="item">
+      <div class="meta">
+        <div class="top"><div class="title">Bottled Drinks</div><div class="price">$3</div></div>
+        <p class="desc">Fresh-squeezed, lightly sweet.</p>
+      </div>
+    </article>
+
+    <article class="item">
+      <div class="meta">
+        <div class="top"><div class="title">Snapple</div><div class="price">$3.50</div></div>
+      </div>
+    </article>
+	
+	<article class="item">
+      <div class="meta">
+        <div class="top"><div class="title">Sorrel</div><div class="price">$7</div></div>
+        <p class="desc">Fresh-squeezed, lightly sweet.</p>
+      </div>
+    </article>
+
+    <article class="item">
+      <div class="meta">
+        <div class="top"><div class="title">Water</div><div class="price">$2</div></div>
+      </div>
+    </article>
+	
+    <!-- DESSERTS -->
+    <div class="section" id="desserts">
+      <h2>Desserts</h2>
+    </div>
+
+    <article class="item">
+      <div class="meta">
+        <div class="top"><div class="title">Pound Cake</div><div class="price">$8</div></div>
+      </div>
+    </article>
+
+    <article class="item">
+      <div class="meta">
+        <div class="top"><div class="title">Coconut Sweet Bread</div>
+		<div class="price">$8.50</div></div>
+      </div>
+    </article>
+	
+	<article class="item">
+      <div class="meta">
+        <div class="top"><div class="title">Vegan Carrot Cake<span class="tag">V</span></div>
+		<div class="price">$8</div></div>
+      </div>
+    </article>
+
+    <!-- CATERING PROMO -->
+    <div class="section" id="catering">
+      <h2>Need Catering?</h2>
+    </div>
+
+    <article class="item">
+      <div class="meta">
+        <div class="top"><div class="title">Call (407)-205-7859</div>
+		</div>
+        <p class="desc">Email <strong>tastilydivine@gmail.com</strong>.</p>
+        <div class="tags"><span class="tag">church events</span><span class="tag">weddings</span><span class="tag">corporate</span></div>
+      </div>
+    </article>
+
+  </main>
+
+  <footer>
+    © 2025 Tastily Divine • Instagram: @TastilyDivine • “Taste the Blessing”
+  </footer>
+</body>
+</html>
+
